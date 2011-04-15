@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      android:background="#ff9900"
+    android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
+<TextView  
+    android:text="Message:"
+    android:textColor="#ffff66"
+    android:textSize="8pt"
+    android:gravity="center"
+    android:background="#ff6600"
+    android:textStyle="bold"
+    android:layout_width="fill_parent" 
+    android:typeface="sans"
+    android:layout_height="wrap_content" 
+    android:paddingTop="5dip"
+    android:paddingBottom="5dip"
+    ></TextView>
+<EditText android:layout_width="fill_parent" 
+          android:layout_height="wrap_content"
+          android:id="@+id/editText1"
+          android:lines="12" android:gravity="top" android:maxLength="256" ></EditText>
+<TextView android:text="Tags:" 
+          android:textColor="#ff3300" 
+          android:textSize="7pt"
+          android:textStyle="bold"
+          android:id="@+id/textView1" 
+          android:layout_width="wrap_content" 
+          android:layout_height="wrap_content"></TextView>
+<EditText android:layout_width="fill_parent" 
+          android:layout_height="wrap_content"
+          android:id="@+id/editText2"
+          android:maxLength="32"
+          ></EditText>
+<Button android:id="@+id/button1" 
+        android:text="Send"
+        android:textColor="#ff6600" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:clickable="true" ></Button>
+</LinearLayout>
+ 
+ 
+
+
+    
